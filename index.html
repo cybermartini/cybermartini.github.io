@@ -14,7 +14,8 @@
         :root {
             --bg-color: #F3F1ED;       /* Warm bone/beige background */
             --text-color: #2F3235;     /* Soft charcoal for text */
-            --accent-green: #5C6D5F;   /* Muted sage green */
+            /* --accent-green: #5C6D5F; */   /* Muted sage green */
+            --accent-green: #5774F6; /* Logo color */
             --accent-rust: #BC7A60;    /* Soft terracotta/rust */
             --white: #FFFFFF;
             --light-gray: #E5E5E5;
@@ -255,7 +256,6 @@
         }
 
         .map-placeholder {
-            background-color: #ddd;
             width: 100%;
             height: 100%;
             min-height: 400px;
@@ -317,7 +317,8 @@
     <header>
         <div class="container">
             <nav>
-                <a href="#" class="logo">Clove Therapy.</a>
+                <a href="#" class="logo">MARTINI COUNSELING & CONSULTING</a>
+                <!--<img src="./logo-small.png" alt="Martini Counseling & Consulting" width="500" height="100">-->
                 <button class="mobile-menu-btn">☰</button>
                 <ul class="nav-links">
                     <li><a href="#approach">Our Approach</a></li>
@@ -332,11 +333,11 @@
 
     <section class="hero container">
         <div class="hero-text">
-            <h1>Accessible mental healthcare, grounded in empathy.</h1>
+            <h1>Specialized care designed for the needs of first responders.</h1>
             <p>We are a collective of doctoral-level psychologists and holistic practitioners providing quality care in-person and online.</p>
             <a href="#contact" class="btn">Book a Consultation</a>
         </div>
-        <img src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c2e?q=80&w=1200&auto=format&fit=crop" alt="Therapy Office" class="hero-image">
+        <img src="./logo.png" alt="Therapy Office" class="hero-image">
     </section>
 
     <section id="services" class="services">
@@ -347,24 +348,24 @@
             </div>
             
             <div class="grid">
-                <div class="card">
-                    <span class="card-icon">●</span>
-                    <h3>Individual Therapy</h3>
+                <div class="card" style="background-color: #5774F6; color: white;">
+                    <span class="card-icon"><img alt="" src="https://images.squarespace-cdn.com/content/v1/624b503b5d73881124e70a24/1649102924019-AQPZM7QK25J33VKNIGMV/Thrapy+copy+2.png" width="200" height="200"></span>
+                    <h3 style="color: white;">Individual Therapy</h3>
                     <p>One-on-one sessions to help you navigate anxiety, depression, and life transitions with a licensed professional.</p>
                 </div>
-                <div class="card">
-                    <span class="card-icon">▲</span>
-                    <h3>Couples Counseling</h3>
+                <div class="card" style="background-color: #5774F6; color: white;">
+                    <span class="card-icon"><img alt="" src="https://images.squarespace-cdn.com/content/v1/624b503b5d73881124e70a24/1649102924024-JRIAPMEPVYEU598UIAKF/Pills+copy+2.png" width="200" height="200"></span>
+                    <h3 style="color: white;">Couples Counseling</h3>
                     <p>Rebuild trust and improve communication in a safe, mediated environment designed for growth.</p>
                 </div>
-                <div class="card">
-                    <span class="card-icon">■</span>
-                    <h3>Psychiatry</h3>
+                <div class="card" style="background-color: #5774F6; color: white;">
+                    <span class="card-icon"><img alt="" src="https://images.squarespace-cdn.com/content/v1/624b503b5d73881124e70a24/1649102924031-YXADIDPIOUVJ41WLFVKJ/Coaching+copy.png" width="200" height="200"></span>
+                    <h3 style="color: white;">Psychiatry</h3>
                     <p>Comprehensive medication management and evaluation provided by our compassionate medical team.</p>
                 </div>
-                <div class="card">
-                    <span class="card-icon">◆</span>
-                    <h3>Holistic Coaching</h3>
+                <div class="card" style="background-color: #5774F6; color: white;">
+                    <span class="card-icon"><img alt="" src="https://images.squarespace-cdn.com/content/v1/624b503b5d73881124e70a24/1649102924036-G0TE4WZ8BW74BRIHOQEA/Accupuncture+copy+2.png" width="200" height="200"></span>
+                    <h3 style="color: white;">Holistic Coaching</h3>
                     <p>Focusing on the future, our coaching programs help you set goals and achieve professional balance.</p>
                 </div>
             </div>
@@ -401,8 +402,8 @@
 
     <section class="testimonial">
         <div class="container">
-            <h2>"Clove helped me find a therapist I truly connected with. The environment is so calming, I finally feel like I have a safe space to just be myself."</h2>
-            <cite>— LUISA H., CLOVE CLIENT</cite>
+            <h2>"Martini helped me find a therapist I truly connected with. The environment is so calming, I finally feel like I have a safe space to just be myself."</h2>
+            <cite>— LUISA H.</cite>
         </div>
     </section>
 
@@ -414,19 +415,20 @@
             <ul>
                 <li><strong>Address:</strong><br>123 Wellness Blvd, Suite 400<br>New York, NY 10012</li>
                 <li><strong>Hours:</strong><br>Mon-Fri: 8am - 7pm<br>Sat: 10am - 4pm</li>
-                <li><strong>Email:</strong><br>hello@clovetherapy.com</li>
+                <li><strong>Email:</strong><br>contact@martinicounseling.com</li>
             </ul>
             
-            <a href="mailto:hello@clovetherapy.com" class="btn-outline btn">Get in Touch</a>
+            <a href="mailto:contact@martinicounseling.com" class="btn-outline btn">Get in Touch</a>
         </div>
         
-        <div class="map-placeholder" style="background: url('https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1000&auto=format&fit=crop'); background-size: cover;">
+        <div class="map-placeholder">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46962.765859341525!2d-71.36803293073993!3d42.63649511891607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3a449e22c4d3f%3A0xdde5f57e7f52966b!2sLowell%2C%20MA!5e0!3m2!1sen!2sus!4v1767099898788!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Clove Therapy Collective. All rights reserved.</p>
+            <p>&copy; 2026 Chaos to Calm, LLC. All rights reserved.</p>
         </div>
     </footer>
 
